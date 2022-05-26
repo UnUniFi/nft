@@ -3,7 +3,8 @@ from PIL import Image
 width = 940
 height = 1024
 
-src = Image.open('src/blue-greenback.png')
+# put source image
+src = Image.open('src/source_image.png')
 startImageHeightList = []
 
 originPixel = src.getpixel((0,0))
